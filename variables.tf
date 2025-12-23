@@ -1,8 +1,7 @@
  variable "instance_name" {
   description = "Value of the EC2 instance's Name tag."
   type        = string
-# default     = "learn-terraform"
-  default     = "learn-hcp-terraform-upstream"
+  default     = "learn-terraform"
 }
 
 variable "instance_type" {
@@ -11,3 +10,4 @@ variable "instance_type" {
   default     = "t2.micro"
 
 }
+
